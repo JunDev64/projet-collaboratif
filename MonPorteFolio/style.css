@@ -1,0 +1,110 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import
+url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import
+url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import
+url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import
+url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body{
+    font-family: 'Press Start 2P';
+    font-size: 15px;
+    background: linear-gradient(135deg, #0a0a1b,#2c3e50);
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+    }
+    
+header{
+    position: relative;
+    bottom: 10px;
+    right:10px;
+    width: 95%;
+    background: linear-gradient(135deg, #0a0a1b,#2c3e50);
+    color: #fff;
+    padding: 2%;
+    margin-bottom: 0px;
+}
+li{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 
+    0 0 5px  #00f0ff,
+    0 0 10px #00f0ff,
+    0 0 20px #33ffff,
+    0 0 40px #33ffff,
+    0 0 80px #00ccff,
+    0 0 90px #00ccff,
+    0 0 100px#00ccff;
+    animation: neonPulse 1.5s infinite alternate;
+}
+#neon-title{
+    font-family: 'Press Start 2P';
+    font-size: 50px;
+    color: white;
+    text-shadow: 
+    0 0 5px  #00f0ff,
+    0 0 10px #00f0ff,
+    0 0 20px #33ffff,
+    0 0 40px #33ffff,
+    0 0 80px #00ccff,
+    0 0 90px #00ccff,
+    0 0 100px#00ccff;
+    animation: neonPulse 1.5s infinite alternate;
+}
+
+@keyframes neonPulse {
+    0%{
+        text-shadow: 
+        0 0 2px  #00f0ff,
+        0 0 5px  #00f0ff,
+        0 0 10px #33ffff,
+        0 0 20px #00ccff,
+        0 0 40px #00ccff;
+}
+100%{
+    text-shadow: 
+    0 0 10px #00f0ff,
+    0 0 20px #00f0ff,
+    0 0 30px #33ffff,
+    0 0 60px #00ccff,
+    0 0 80px #00ccff,
+    0 0 100px #00ccff;
+}
+}
+
+.flex-center{
+   top: 10px;
+}
+img{
+    width: 98.5%;
+    height: 400px;
+}
+#p1{
+    color:yellowgreen;
+    font-size: 17px;
+}
+p{
+    color: blue;
+}
+
+#p3{
+    color: red;
+}
+
+.paragraphes{
+
+}
+footer{
+    background: linear-gradient(135deg, #0a0a1b,#2c3e50);
+    color: #fff;
+}
